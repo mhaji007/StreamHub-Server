@@ -1,6 +1,6 @@
 // User type entity
 // prop allows to declare properties on model
-// converts model to a class that mongoose can work with on the backend
+// getModelForClass converts model to a class that mongoose can work with on the backend
 import { prop as Property, getModelForClass } from "@typegoose/typegoose";
 import { ObjectId } from "mongodb";
 import { Field, ObjectType } from "type-graphql";
