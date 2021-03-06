@@ -1,3 +1,5 @@
+// The scalar will allows us to reference ObjectIds in the context
+// of our MongoDB application
 // This scalar allows GraphQl to pass in a new readable type
 // called objectId
 
